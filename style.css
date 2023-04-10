@@ -20,4 +20,9 @@
 
 .escola {
      background-image: linear-gradient(#3E4EA5,#4DBBE7);
+      color: white;
+     display:flex;
+     justify-content: center;}
+  .escola-conteúdo   {  
+     width:35%;
 }
