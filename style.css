@@ -4,12 +4,13 @@
 }
 
 .cabeçalho {
-     background-color:#1D2B76; 
+     background-color:#10268B; 
      color: white;
      display:flex;
      justify-content: space-around;
      padding:24px 0;
-     font-size:24px;}
+     font-size: 24px;
+    }
 
 .cabeçalho-imagem {
      width: 20%;}
@@ -18,11 +19,45 @@
      display:inline-block;
 }
 
+.escola-imagem{
+     width: 35%;
+}
+
 .escola {
-     background-image: linear-gradient(#3E4EA5,#4DBBE7);
+     background-image: linear-gradient(#0E2188,#4DBBE7);
       color: white;
      display:flex;
-     justify-content: center;}
-  .escola-conteúdo   {  
+     justify-content: center;
+     align-items: center;}
+ 
+.escola-conteúdo   {  
      width:35%;
+}
+ 
+body{
+     font-family:'Poppins' ,sans-serif;
+}
+
+.estudante-imagem{
+     width: 200px;
+}
+
+.estudante-div{
+     text-align: center;
+}
+
+.estudante-título{
+     text-align: center;
+     padding: 50px 0;
+}
+
+.estudante-todos{
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25% 25%;
+}
+
+footer{
+     background-color: #0E2188;
+     padding: 15px 0;
+     text-align: center;
 }
